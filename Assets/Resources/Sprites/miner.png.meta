@@ -1,0 +1,581 @@
+fileFormatVersion: 2
+guid: 08684c3bbbd6bab4096c3c9e6c3c251a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7282116874285091003
+    second: miner_0
+  - first:
+      213: 4432906840098763257
+    second: miner_1
+  - first:
+      213: 3232368857605186787
+    second: miner_2
+  - first:
+      213: 946004913366213272
+    second: miner_3
+  - first:
+      213: 5957870940682892022
+    second: miner_4
+  - first:
+      213: -2820485696817719496
+    second: miner_5
+  - first:
+      213: -8019746251570231264
+    second: miner_6
+  - first:
+      213: -7399621186481481069
+    second: miner_7
+  - first:
+      213: 8752808380627653123
+    second: miner_8
+  - first:
+      213: 3416580858512578740
+    second: miner_9
+  - first:
+      213: 3818011460765443998
+    second: miner_10
+  - first:
+      213: 3774967269702317986
+    second: miner_11
+  - first:
+      213: -5963124111301239925
+    second: miner_12
+  - first:
+      213: 4497690837097335574
+    second: miner_13
+  - first:
+      213: 7451364577656590248
+    second: miner_14
+  - first:
+      213: 5611505713342391315
+    second: miner_15
+  - first:
+      213: -4636844780682003075
+    second: miner_16
+  - first:
+      213: 6143874532097053730
+    second: miner_17
+  - first:
+      213: -5845634348385466344
+    second: miner_18
+  - first:
+      213: -8064696286584550130
+    second: miner_19
+  - first:
+      213: 4507342350376888303
+    second: miner_20
+  - first:
+      213: -502813415752792716
+    second: miner_21
+  - first:
+      213: 2969744325106852307
+    second: miner_22
+  - first:
+      213: 2673642806308173291
+    second: miner_23
+  - first:
+      213: 2497304944860568483
+    second: miner_24
+  - first:
+      213: 5810168326073264239
+    second: miner_25
+  - first:
+      213: 2272369299073229981
+    second: miner_26
+  - first:
+      213: 1069580484655818717
+    second: miner_27
+  - first:
+      213: -3887961795622493268
+    second: miner_28
+  - first:
+      213: 5135446015600697457
+    second: miner_29
+  - first:
+      213: 8605633038574437212
+    second: miner_30
+  - first:
+      213: -4272013346582332542
+    second: miner_31
+  - first:
+      213: -7528987051402217833
+    second: miner_32
+  - first:
+      213: 3178131915222607416
+    second: miner_33
+  - first:
+      213: -3749789889938732598
+    second: miner_34
+  - first:
+      213: -5179709746795829817
+    second: miner_35
+  - first:
+      213: -2429476222134644924
+    second: miner_36
+  - first:
+      213: -6750997724189657778
+    second: miner_37
+  - first:
+      213: 5670073904460033967
+    second: miner_38
+  - first:
+      213: -2368988707829249519
+    second: miner_39
+  - first:
+      213: -23724486022998525
+    second: miner_40
+  - first:
+      213: -2040339680654160553
+    second: miner_41
+  - first:
+      213: 4281812531974416704
+    second: miner_42
+  - first:
+      213: -6289035984009442877
+    second: miner_43
+  - first:
+      213: 7162493946026770323
+    second: miner_44
+  - first:
+      213: 3014731246206575947
+    second: miner_45
+  - first:
+      213: -4966431439899010711
+    second: miner_46
+  - first:
+      213: 4303746153873750193
+    second: miner_47
+  - first:
+      213: -6634484693500336823
+    second: miner_48
+  - first:
+      213: 358731989705649056
+    second: miner_49
+  - first:
+      213: -6403973139375451200
+    second: miner_50
+  - first:
+      213: 5141688400733098331
+    second: miner_51
+  - first:
+      213: -2381719604245233838
+    second: miner_52
+  - first:
+      213: -5661242923255174384
+    second: miner_53
+  - first:
+      213: 61379996352607225
+    second: miner_54
+  - first:
+      213: 2697617233018362895
+    second: miner_55
+  - first:
+      213: 1470552140557849983
+    second: miner_56
+  - first:
+      213: 3428327717349933324
+    second: miner_57
+  - first:
+      213: 894748147573518539
+    second: miner_58
+  - first:
+      213: -8247242546364106269
+    second: miner_59
+  - first:
+      213: -4321515005400090189
+    second: miner_60
+  - first:
+      213: -4531358546268914077
+    second: miner_61
+  - first:
+      213: 9198064258138651868
+    second: miner_62
+  - first:
+      213: -2904906419849289806
+    second: miner_63
+  - first:
+      213: 627189570661970794
+    second: miner_64
+  - first:
+      213: -172368272009206670
+    second: miner_65
+  - first:
+      213: 4136209879362982532
+    second: miner_66
+  - first:
+      213: 2602596777251358332
+    second: miner_67
+  - first:
+      213: -6883464735234926022
+    second: miner_68
+  - first:
+      213: 1969204908029293207
+    second: miner_69
+  - first:
+      213: -5141386521366438041
+    second: miner_70
+  - first:
+      213: 3151081015795790253
+    second: miner_71
+  - first:
+      213: -4416484828764537416
+    second: miner_72
+  - first:
+      213: 2623832071611917103
+    second: miner_73
+  - first:
+      213: -2747162251181107989
+    second: miner_74
+  - first:
+      213: 8176724207243081137
+    second: miner_75
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: miner_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a246610554ad89e4e91f948224b3b314
+      internalID: 7282116874285091003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miner_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c087f537995f040b57aea9b032ec7c
+      internalID: 4432906840098763257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miner_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf107cc24614e74398062147bb616bf
+      internalID: 3232368857605186787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miner_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f71f1f8242038a47a672fcb622a7f76
+      internalID: -2820485696817719496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miner_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad623ed76b4ee1d469c90686c222a2aa
+      internalID: -8019746251570231264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miner_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfdb7a4f8092de408be6dd3815475f4
+      internalID: -7399621186481481069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miner_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd59785a8a323da4f96a9d7761ae67dc
+      internalID: 3416580858512578740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miner_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be4b7a9b462ac343adbc4b25fc7b185
+      internalID: 3818011460765443998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miner_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d6e2c4dcc9f9541aa54ba1e8e31dac
+      internalID: 3774967269702317986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miner_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395ba21881748444cbb8ee51ee991335
+      internalID: 7451364577656590248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miner_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd563b3b52e450e468fbc4c9882e9245
+      internalID: 5611505713342391315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miner_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27eec73c77ff49740893b60215ad81f9
+      internalID: -4636844780682003075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f428e8fbe3b8705469c4c6e1bbf9727b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
