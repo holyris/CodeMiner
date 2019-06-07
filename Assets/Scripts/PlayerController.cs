@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
 
 
 
-    
+    private int nbOfBegin, nbOfEnd;
     private Sprite[] sprites;
     private SpriteRenderer spriteRenderer; //  on met le composant sprite dans un autre GameObject pour rotate librement
 
@@ -56,6 +56,8 @@ public class PlayerController : MonoBehaviour
         stackRank = 0;
         stackIterator = 1;
         inverseMoveTime = 1f / 0.1f;
+        nbOfBegin = 0;
+        nbOfEnd = 0;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -76,8 +78,8 @@ public class PlayerController : MonoBehaviour
     //  fonction qui interprete les cartes pour executer les mouvements dans le bon ordre
     private int MovementsInterpreter(int loopBegin)
     {
-
-        for (int i = loopBegin; i < cartes.Count; i++)
+        int i = loopBegin;
+        for (; i < cartes.Count; i++)
         {
 
             int argument = System.Convert.ToInt32(cartes[i].GetComponent<Label>().argument);
@@ -86,6 +88,7 @@ public class PlayerController : MonoBehaviour
             //  debut loop
             if (nom.Equals("Begin"))
             {
+                nbOfBegin++;
                 loopBegin = i;
 
                 //  pour que la boucle fasse 2 tour par defaut
@@ -99,7 +102,12 @@ public class PlayerController : MonoBehaviour
             //  fin loop
             else if (nom.Equals("End"))
             {
-                return i;
+                nbOfEnd++;
+                if(nbOfBegin >= nbOfEnd)
+                {
+                    nbOfEnd--;
+                    return i;                        
+                }
             }
 
             //  avancer
@@ -131,7 +139,7 @@ public class PlayerController : MonoBehaviour
             }
         }
         //  pour eviter les warnings
-        return 0;
+        return i;
     }
     
     /// <summary>
