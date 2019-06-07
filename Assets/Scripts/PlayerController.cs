@@ -172,7 +172,7 @@ public class PlayerController : MonoBehaviour
                 //  tant que la distance n'est pas (presque) nulle alors
                 while (sqrDistance > 0.001f)
                 {
-                    Vector3 newPosition = Vector3.MoveTowards(rb2d.position, end, inverseMoveTime * Time.deltaTime * 0.3f);
+                    Vector3 newPosition = Vector3.MoveTowards(rb2d.position, end, 0.03f);
 
                     rb2d.MovePosition(newPosition);
 
