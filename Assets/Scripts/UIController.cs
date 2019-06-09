@@ -21,7 +21,7 @@ public class UIController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        Application.targetFrameRate = 30;
         string sceneName = SceneManager.GetActiveScene().name;
         index = Convert.ToInt32(sceneName); //converti string en int
         index--;
