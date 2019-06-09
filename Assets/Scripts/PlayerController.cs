@@ -9,8 +9,6 @@ public class PlayerController : MonoBehaviour
 {
 
     public GameObject grid;
-    public GameObject buttons;
-    public GameObject stop;
     public GameObject pickups;
     public LayerMask blockingLayer;         //  Layer sur lequel la collision sera comptee comme etant un mur
     public int direction;                   //  a configurer sur l'editeur unity
@@ -34,8 +32,6 @@ public class PlayerController : MonoBehaviour
 
     private int stackRank, stackIterator;   //  permettent aux mouvements de s'attendre entre eux
 
-    private float inverseMoveTime;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -55,7 +51,6 @@ public class PlayerController : MonoBehaviour
         size = grid.GetComponent<SpriteRenderer>().bounds.size.x;
         stackRank = 0;
         stackIterator = 1;
-        inverseMoveTime = 1f / 0.1f;
         nbOfBegin = 0;
         nbOfEnd = 0;
     }
@@ -129,16 +124,13 @@ public class PlayerController : MonoBehaviour
             {
                 stackRank++;
                 StartCoroutine(Tourner(argument, stackRank, 1));
-            }
-
-            else if (nom.Equals("Goal"))
-            {
-                stackRank++;
-                
-                StartCoroutine(ResetAtEnd(stackRank));
-            }
+            }           
         }
-        //  pour eviter les warnings
+
+        stackRank++;
+
+        StartCoroutine(ResetAtEnd(stackRank));
+
         return i;
     }
     
@@ -172,7 +164,7 @@ public class PlayerController : MonoBehaviour
                 //  tant que la distance n'est pas (presque) nulle alors
                 while (sqrDistance > 0.001f)
                 {
-                    Vector3 newPosition = Vector3.MoveTowards(rb2d.position, end, 0.03f);
+                    Vector3 newPosition = Vector3.MoveTowards(rb2d.position, end, 0.04f);
 
                     rb2d.MovePosition(newPosition);
 
@@ -235,8 +227,7 @@ public class PlayerController : MonoBehaviour
         transform.SetPositionAndRotation(startPosition, Quaternion.identity);
         direction = startDirection;
         Start();
-        buttons.SetActive(true);
-        stop.SetActive(false);
+        transform.GetComponentInParent<PartieController>().canvas.GetComponent<UIController>().labels.GetComponent<LabelsController>().ActivateButtons();
 
         foreach (Transform child in pickups.transform)
         {
@@ -263,21 +254,6 @@ public class PlayerController : MonoBehaviour
         if (hit.transform == null)
             return true;
         else return false;
-    }
-
-
-    private void ChangeSprite()
-    {
-        if(direction == 0)
-            spriteRenderer.sprite = sprites[10];
-        else if (direction == 1)
-            spriteRenderer.sprite = sprites[4];
-        else if (direction == 2)
-            spriteRenderer.sprite = sprites[1];
-        else if (direction == 3)
-            spriteRenderer.sprite = sprites[7];
-
-
     }
 
     private void ChangeAnimation()

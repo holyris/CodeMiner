@@ -48,12 +48,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grid: {fileID: 0}
-  buttons: {fileID: 0}
-  stop: {fileID: 0}
   pickups: {fileID: 0}
   blockingLayer:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 2048
   direction: 3
 --- !u!61 &7843354793754506243
 BoxCollider2D:
